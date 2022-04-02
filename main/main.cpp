@@ -7,10 +7,10 @@
 #include "esp_log.h"
 #include "sdkconfig.h"
 
-#include "ncnn/src/net.h"
-#include "ncnn/src/mat.h"
-#include "ncnn/src/cpu.h"
-#include "ncnn/src/datareader.h"
+#include "ncnn/net.h"
+#include "ncnn/mat.h"
+#include "ncnn/cpu.h"
+#include "ncnn/datareader.h"
 
 #include "mnist-1-bin.h"
 #include "fs.h"
